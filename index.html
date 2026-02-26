@@ -214,15 +214,6 @@
                     </div>
                 </div>
 <script>
-    /*
-    function previewImage(event) {
-        const reader = new FileReader();
-        reader.onload = function () {
-            document.getElementById('user').src = reader.result;
-        };
-        reader.readAsDataURL(event.target.files[0]);
-    }
-    */
    document.getElementById('uploadImg').addEventListener('change', function(e) {
     const file = e.target.files[0];
     if (file) {
@@ -236,7 +227,7 @@
 
     function handleSubmit(e) {
         e.preventDefault();
-        window.alert("It has been submitted");
+        window.alert("You have created your account.");
     }
    
 
@@ -259,4 +250,5 @@
 </body>
 
 </html>
+
 </form>
